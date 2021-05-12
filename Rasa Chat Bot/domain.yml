@@ -1,0 +1,58 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - query_about
+  - query_dia
+  - query_treat
+  - query-symp
+responses:
+  utter_greet:
+  - text: "Hey! I am a bot...\nI know everything about skin cancer (seborrheic keratosis)..."
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, How Can I help?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "Hey! I am a bot...\nI know everything about skin cancer (seborrheic keratosis)..."
+
+  utter_about:
+  - text: "A seborrheic keratosis (seb-o-REE-ik ker-uh-TOE-sis) is a common noncancerous skin growth. \nPeople tend to get more of them as they get older. \nSeborrheic keratoses are usually brown, black or light tan.\n The growths look waxy, scaly and slightly raised. \nThey usually appear on the head, neck, chest or back. \nSeborrheic keratoses are harmless and not contagious. \nThey don't need treatment, but you may decide to have them removed if they become irritated by clothing or you don't like how they look.\n"
+  utter_dia:
+  - text: "Your doctor can usually diagnose a seborrheic keratosis just by looking at it.\n Your doctor may recommend removing it \nso that it can be examined under a microscope if there is a question about the diagnosis.\n"
+  utter_treat:
+  - text: "Treatment of a seborrheic keratosis isn't usually needed.\n Be careful not to rub, scratch or pick at it. This can lead to itching, pain and bleeding.\n
+You can have a seborrheic keratosis removed if it becomes irritated or bleeds, or if you don't like how it looks or feels.\n
+Several options are available for removing a seborrheic keratosis:\n
+
+Freezing with liquid nitrogen (cryosurgery). Cryosurgery can be an effective way to remove a seborrheic keratosis. It doesn't always work on raised, thicker growths, and it may result in discoloration of treated skin.\n
+Scraping the skin's surface (curettage). First your doctor will numb the area and then use a scalpel blade to remove the growth. Sometimes scraping is used along with cryosurgery to treat thinner or flat growths. It may also be used with electrocautery.\n
+Burning with an electric current (electrocautery). First your doctor will numb the area and then destroy the growth with electrocautery. This method can be used alone or with scraping, especially when removing thicker lesions. This procedure can leave scars if it's not done properly, and it may take slightly longer than other removal methods.\n
+Vaporizing the growth with a laser (ablation). Different types of laser treatments are available.\n
+Applying a solution of hydrogen peroxide. If you have a raised growth, your doctor may prescribe a solution of 40% hydrogen peroxide (Eskata), which is applied to the skin. The drug has been proved to be effective in removing seborrheic keratoses, but it may irritate the skin.\n This solution must be handled with care, as it can cause eye damage.\n"
+  utter_symp:
+  - text: "A seborrheic keratosis usually looks like a waxy or wartlike growth. It typically appears on the face, chest, shoulders or back. You may develop a single growth, though multiple growths are more common.\n
+ A seborrheic keratosis:\n
+ Ranges in color from light tan to brown or black\n
+ Is round or oval shaped\n
+ Has a characteristic pasted on look \n
+ Is flat or slightly raised with a scaly surface\n
+ Ranges in size from very small to more than 1 inch (2.5 centimeters) across\n
+ May itch\n"  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
