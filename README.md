@@ -38,3 +38,13 @@ both, the patient, and the doctor.
 - The tedious task of making appointments is eliminated.
 - This can be used by multiple hospitals for easy transfer of patients’ cases and
 connection for doctors.
+
+## To Run Web APP:
+```bash
+cd 'Cancer Web App'
+python manage.py runserver
+```
+
+## To Do:
+- [X] Add Forum.
+- [ ] Integrate Web App with Firebase to connect with Android app.
