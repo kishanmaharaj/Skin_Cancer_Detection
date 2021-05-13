@@ -1,0 +1,15 @@
+{% extends 'doctors/base.html' %}
+{% block content %}
+
+<h2>Results</h2>
+<p> uploaded image</p>
+{% load static %}
+<img src="{% static images %}" alt="My image", width="400" height="400">
+<p>Cancer Detected: {{detected }}</p>
+<p>Probability    : {{percentage }}%</p>
+
+
+
+
+
+{% endblock content %}

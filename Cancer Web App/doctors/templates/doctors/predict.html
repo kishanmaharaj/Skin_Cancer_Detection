@@ -1,0 +1,18 @@
+{% extends 'doctors/base.html' %}
+{% block content %}
+
+<h2>Select a file to upload</h2>
+
+<form enctype="multipart/form-data"  action="." method='POST'>{% csrf_token %}
+    <dl>
+	<p>
+		<input type="file" name="file" autocomplete="off" required>
+	</p>
+    </dl>
+    <p>
+	<input type="submit" value="Submit">
+    </p>
+</form>
+
+
+{% endblock content %}
